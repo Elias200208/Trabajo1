@@ -1,0 +1,122 @@
+
+body {
+ background-color: lightslategrey;
+}
+nav {
+    background-color: rgb(249, 249, 250);
+    justify-content: center;
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+ul { display: flex; 
+    list-style-type: none;  
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+ li {padding: 15px;
+
+ }
+ li:hover{
+     background-color: black;
+     color: white;
+ }
+ .p1 {color: rgb(3, 3, 3);padding-right:60%; float: left;background-color: rgb(255, 255, 255);
+ }
+ .p2 {color: rgb(3, 3, 3);background-color: rgb(255, 255, 255);margin-top: auto;
+ }
+ form{background-color: white; 
+}
+ table ,th,td{border-style: double; border-color: black;
+}
+.p{
+    height: 840px;
+    background-image: url("https://d500.epimg.net/cincodias/imagenes/2015/05/08/pyme/1431098283_691735_1431098420_noticia_normal.jpg");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 75rem;
+}
+.con{
+    color: blue;
+}
+.img{
+    height: 840px;
+    background-image: url("https://d500.epimg.net/cincodias/imagenes/2015/05/08/pyme/1431098283_691735_1431098420_noticia_normal.jpg");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 75rem;
+}
+.p3{
+    color: blue;
+}
+
+.login, html{
+    height: 100%;
+}
+.login {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #2f3542;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form-box {
+    width: 300px;
+    padding: 40px;
+    background: #191919;
+    text-align: center;
+}
+
+.form-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form-box input[type="text"], .form-box input[type="password"], .form-box button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3742fa;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form-box input[type="text"]:focus, .form-box input[type="password"]:focus {
+    width: 280px;
+    border-color: #ffffff;
+}
+
+.form-box button[type="submit"] {
+    border: 0;
+    background: #5352ed;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3742fa;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.form-box button[type="submit"]:hover {
+    background: none;
+}
